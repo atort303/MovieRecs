@@ -5,23 +5,32 @@ Data is being used to create more efficient systems and this is where Recommenda
 
 Content Based Filtering- They suggest similar items based on a particular item. This system uses item metadata, such as genre, director, description, actors, etc. for movies, to make these recommendations. The fundamental idea behind these recommender systems is that if a person liked a particular item, he or she will also like an item that is similar to it.
 
+
 I'll be building two straight-forward Movie Recommendation Systems using "TMDB 5000 Movie Dataset" from Kaggle. I'll attempt to answer the following questions:
 Based on user votes, what are the highest rated movies in the entire dataset? 
 What are some recommended movies based on the selection of a particular movie?
 
 # Virtual Environment Instructions #
-Once repo is cloned, navigate to it's folder in Terminal/GitBash
-Create virtual environment on Windows by entering: Windows (GitBash): python -m venv venv Linux/Mac (Terminal): python3 -m venv venv
-Activate venv by entering: Windows (GitBash): venv/Scripts/activate Linux/Mac (Terminal): source venv/bin/activate
-Run requirements.txt to install needed libraries: Windows (GitBash): pip install -r requirements.txt Linux/Mac (Terminal): pip install -r requirements.txt
-When done in venv, deactivate by entering: Windows (GitBash): deactivate Linux/Mac (Terminal): deactivate
+- Once repo is cloned, navigate to it's folder in Terminal/GitBash
+- Create virtual environment on Windows by entering: 
+- Windows (GitBash): python -m venv venv 
+- Linux/Mac (Terminal): python3 -m venv venv
+- Activate venv by entering: 
+- Windows (GitBash): venv/Scripts/activate 
+- Linux/Mac (Terminal): source venv/bin/activate
+- Run requirements.txt to install needed libraries: 
+- Windows (GitBash): pip install -r requirements.txt 
+- Linux/Mac (Terminal): pip install -r requirements.txt
+- When done in venv, deactivate by entering: 
+- Windows (GitBash): deactivate 
+- Linux/Mac (Terminal): deactivate
 
 # Features: #
-Read in two or more data files (CSV)
-Clean data and perfrom pandas merge. Calculate new values based on new dataset.
-Make 3 matplotlib visualizations of data.
-Use virtual environment and include set up instructions in README.
-Annotate and clean code in Jupyter Notebook.
+- Read in two or more data files (CSV)
+- Clean data and perfrom pandas merge. Calculate new values based on new dataset.
+- Make 3 matplotlib visualizations of data.
+- Use virtual environment and include set up instructions in README.
+- Annotate and clean code in Jupyter Notebook.
 
 # Sources: #
 1. https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
