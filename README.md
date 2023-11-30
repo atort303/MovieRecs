@@ -18,22 +18,21 @@ Prerequisites:
 
 # Follow these steps to run the data analysis project locally:
 
-1. Fork the repository link
-2. Clone the repository to your Github account
-3. Access the repository from your command line or preferred CMD software
-4. Install a virtual environment.
+1. Clone the repository to your machine
+2. Access the repository from your command line or preferred CMD software
+3. Install a virtual environment.
 - Create virtual environment on Windows by entering: 
   - Windows (GitBash): python -m venv venv 
   - Linux/Mac (Terminal): python3 -m venv venv
 - Activate venv by entering: 
   - Windows (GitBash): venv/Scripts/activate 
   - Linux/Mac (Terminal): source venv/bin/activate
-5. Install the requirements.txt file to install necessary packages 
+4. Install the requirements.txt file to install necessary packages 
 - pip install -r requirements.txt 
-6. Run Jupyter files in order:
+5. Run Jupyter files in order:
 - A_Movie_Recommender (step by step process to construct two simple movie recommendation systems)
 - B_Movie_Visualization (matplotlib visualitions for movie data)
-7. When done in venv, deactivate by entering: 
+6. When done in venv, deactivate by entering: 
 - deactivate 
 
 # Features: #
