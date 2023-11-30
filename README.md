@@ -21,19 +21,19 @@ Prerequisites:
 1. Clone the repository to your machine
 2. Access the repository from your command line or preferred CMD software
 3. Install a virtual environment.
-- Create virtual environment on Windows by entering: 
-  - Windows (GitBash): python -m venv venv 
-  - Linux/Mac (Terminal): python3 -m venv venv
-- Activate venv by entering: 
-  - Windows (GitBash): venv/Scripts/activate 
-  - Linux/Mac (Terminal): source venv/bin/activate
+   - Create virtual environment on Windows by entering: 
+     - Windows (GitBash): python -m venv venv 
+     - Linux/Mac (Terminal): python3 -m venv venv
+   - Activate venv by entering: 
+     - Windows (GitBash): venv/Scripts/activate 
+     - Linux/Mac (Terminal): source venv/bin/activate
 4. Install the requirements.txt file to install necessary packages 
-- pip install -r requirements.txt 
+   - pip install -r requirements.txt 
 5. Run Jupyter files in order:
-- A_Movie_Recommender (step by step process to construct two simple movie recommendation systems)
-- B_Movie_Visualization (matplotlib visualitions for movie data)
+   - A_Movie_Recommender (step by step process to construct two simple movie recommendation systems)
+   - B_Movie_Visualization (matplotlib visualitions for movie data)
 6. When done in venv, deactivate by entering: 
-- deactivate 
+   - deactivate 
 
 # Features: #
 - Read in two or more data files (CSV)
