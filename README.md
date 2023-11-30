@@ -7,21 +7,20 @@ Content Based Filtering- They suggest similar items based on a particular item. 
 
 
 I'll be building two straight-forward Movie Recommendation Systems using "TMDB 5000 Movie Dataset" from Kaggle. I'll attempt to answer the following questions:
-Based on user votes, what are the highest rated movies in the entire dataset? 
-What are some recommended movies based on the selection of a particular movie?
-
-
-Follow these steps to run the data analysis project locally:
+1. Based on user votes, what are the highest rated movies in the entire dataset? 
+2. What are some recommended movies based on the selection of a particular movie?
 
 Prerequisites:
 - Python 3.11.4
 - Jupyter Notebook 6.5.4
 
+# Follow these steps to run the data analysis project locally:
+
 1. Fork the repository link
 2. Clone the repository to your Github account
 3. Access the repository from your command line or preferred CMD software
 4. Install a virtual environment.
-- # Virtual Environment Instructions #
+ Virtual Environment Instructions
 - Once repo is cloned, navigate to it's folder in Terminal/GitBash
 - Create virtual environment on Windows by entering: 
   - Windows (GitBash): python -m venv venv 
@@ -29,16 +28,10 @@ Prerequisites:
 - Activate venv by entering: 
   - Windows (GitBash): venv/Scripts/activate 
   - Linux/Mac (Terminal): source venv/bin/activate
-- Run requirements.txt to install needed libraries: 
-- Windows (GitBash): pip install -r requirements.txt 
-- Linux/Mac (Terminal): pip install -r requirements.txt
-- When done in venv, deactivate by entering: 
-- Windows (GitBash): deactivate 
-- Linux/Mac (Terminal): deactivate
-
 5. Install the requirements.txt file to install necessary packages 
-- Windows (GitBash): pip install -r requirements.txt 
-- Linux/Mac (Terminal): pip install -r requirements.txt
+- pip install -r requirements.txt 
+6. When done in venv, deactivate by entering: 
+- deactivate 
 
 # Features: #
 - Read in two or more data files (CSV)
