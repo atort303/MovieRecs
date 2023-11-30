@@ -10,6 +10,8 @@ I'll be building two straight-forward Movie Recommendation Systems using "TMDB 5
 1. Based on user votes, what are the highest rated movies in the entire dataset? 
 2. What are some recommended movies based on the selection of a particular movie?
 
+The project will utilize Jupyter Notebooks to run the python files and for code annotation/explanation.
+
 Prerequisites:
 - Python 3.11.4
 - Jupyter Notebook 6.5.4
@@ -28,7 +30,10 @@ Prerequisites:
   - Linux/Mac (Terminal): source venv/bin/activate
 5. Install the requirements.txt file to install necessary packages 
 - pip install -r requirements.txt 
-6. When done in venv, deactivate by entering: 
+6. Run Jupyter files in order:
+- A_Movie_Recommender (step by step process to construct two simple movie recommendation systems)
+- B_Movie_Visualization (matplotlib visualitions for movie data)
+7. When done in venv, deactivate by entering: 
 - deactivate 
 
 # Features: #
