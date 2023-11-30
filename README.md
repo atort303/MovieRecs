@@ -20,8 +20,6 @@ Prerequisites:
 2. Clone the repository to your Github account
 3. Access the repository from your command line or preferred CMD software
 4. Install a virtual environment.
- Virtual Environment Instructions
-- Once repo is cloned, navigate to it's folder in Terminal/GitBash
 - Create virtual environment on Windows by entering: 
   - Windows (GitBash): python -m venv venv 
   - Linux/Mac (Terminal): python3 -m venv venv
